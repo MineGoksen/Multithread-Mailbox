@@ -3,12 +3,12 @@ Clean the queue before run;
 > ipcrm -q <id>
 
 Compile;
-gcc -o client client.c
-gcc -pthread -o server server.c
+>gcc -o client client.c
+>gcc -pthread -o server server.c
 
 Run;
-./server
-./client <client id>
+>./server
+>./client <client id>
 Client id is a numerical value.
 
 **************************************************************************************************
